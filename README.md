@@ -26,11 +26,11 @@ Todo projeto de software do time E5R deve conter:
 ```
 Copyright (c) E5R Development Team. All rights reserved.
 This file is a part of {PROJECT_NAME}.
-Licensed under the {LICENSE_NAME}: https://github.com/e5r/licenses/license/{LICENSE_NAME}.txt
+Licensed under the {LICENSE_NAME}: https://github.com/e5r/licenses/blob/master/license/{LICENSE_NAME}.txt
 ```
 Exemplo em [C](http://en.cppreference.com/w/c) para projeto [NDE](https://github.com/e5r/nde) que usa a licença Apache 2.0:
 ```c
 // Copyright (c) E5R Development Team. All rights reserved.
 // This file is a part of NDE.
-// Licensed under the Apache version 2.0: https://github.com/e5r/licenses/license/APACHE-2.0.txt
+// Licensed under the Apache version 2.0: https://github.com/e5r/licenses/blob/master/license/APACHE-2.0.txt
 ```
