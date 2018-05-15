@@ -1,4 +1,3 @@
-==========================================
 Licenças de softwares E5R Development Team
 ==========================================
 
@@ -17,3 +16,21 @@ As licenças são organizadas em 2 formatos:
 
 2. **Licenças**: São textos completos, contendo a íntegra de cada licença utilizada.
    São genéricas para qualquer projeto que as use, e estão disponíveis em *license/nome_licenca.rst*.
+
+## As licenças em um projeto E5R
+
+Todo projeto de software do time E5R deve conter:
+
+1. Um arquivo `LICENSE.txt` na raiz do projeto contendo a íntegra do conteúdo da licença aplicado ao mesmo;
+2. Cada arquivo de código fonte do projeto deve ter no cabeçalho:
+```
+Copyright (c) E5R Development Team. All rights reserved.
+This file is a part of {PROJECT_NAME}.
+Licensed under the {LICENSE_NAME}: https://github.com/e5r/licenses/license/{LICENSE_NAME}.txt
+```
+Exemplo em [C](http://en.cppreference.com/w/c) para projeto [NDE](https://github.com/e5r/nde) que usa a licença Apache 2.0:
+```c
+// Copyright (c) E5R Development Team. All rights reserved.
+// This file is a part of NDE.
+// Licensed under the Apache version 2.0: https://github.com/e5r/licenses/license/APACHE-2.0.txt
+```
